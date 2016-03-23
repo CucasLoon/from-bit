@@ -17,6 +17,7 @@ import edu.wpi.first.wpilibj.Solenoid;
 import edu.wpi.first.wpilibj.DoubleSolenoid;
 import edu.wpi.first.wpilibj.DoubleSolenoid.Value;
 import org.usfirst.frc3777.FakeRobot.*;
+import edu.wpi.first.wpilibj.DoubleSolenoid.*;
 /**
  *	Lucas Coon 2/26/16
  */
@@ -48,10 +49,9 @@ public class ActuateSolenoid extends Command {
 
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
-    	if (m_ActuateSolenoid = true){
+    	if (m_ActuateSolenoid=true){
     		Robot.pneumatics.doubleSolenoid1.set(DoubleSolenoid.Value.kForward);
-    	}else if (m_ActuateSolenoid != true){
-    		Robot.pneumatics.doubleSolenoid1.set(DoubleSolenoid.Value.kOff);
+    	
     }}
 
     // Make this return true when this Command no longer needs to run execute()
