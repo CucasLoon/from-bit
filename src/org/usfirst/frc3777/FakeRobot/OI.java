@@ -109,7 +109,7 @@ public class OI {
         SmartDashboard.putData("DrivewithJoy", new DrivewithJoy());
         SmartDashboard.putData("Elevator Forward: Setpoint", new ElevatorForward(246980));
         SmartDashboard.putData("Elevator Back: Setpoint2", new ElevatorBack(-246616));
-        SmartDashboard.putData("Command Group 1: Setpoints", new CommandGroup1(246980, 246616));
+        SmartDashboard.putData("Auton Group: Setpoints", new AutonGroup(246980, 246616));
         SmartDashboard.putData("PID Command 1", new PIDCommand1());
         SmartDashboard.putData("SolenoidFalse: SET", new SolenoidFalse(true));
         SmartDashboard.putData("Release Ball: True", new ReleaseBall(true));
